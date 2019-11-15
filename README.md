@@ -1,4 +1,4 @@
-![CSS Grid logo](https://mdbootstrap.com/img/Marketing/publications/articles/css-grid.jpg)
+![CSS Grid logo](https://miro.medium.com/max/600/1*qG3OT-9cER8Nt-P7KR3YPw.jpeg)
 
 # Exploring Grid CSS
 
@@ -8,4 +8,8 @@
 
 ## Reflection: What I have learnt
 
-- Develop using grids [grid space](https://kyrule.github.io/grid-spaces/)
+- Develop using [display grid, inline-grid](https://kyrule.github.io/grid-spaces/inline/)
+
+
+## By:
+> [Khairul](mailto:khairulkulma@gmail.com)
