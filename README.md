@@ -8,4 +8,8 @@
 
 ## Reflection: What I have learnt
 
-- Develop using grids [grid space](https://kyrule.github.io/grid-spaces/)
+- Develop using [display grid, inline-grid] (https://kyrule.github.io/grid-spaces/inline/)
+
+
+## By:
+> [Khairul] (mailto:khairulkulma@gmail.com)
