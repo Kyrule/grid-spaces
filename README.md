@@ -9,7 +9,8 @@
 ## Reflection: What I have learnt
 
 - Develop using [display grid, inline-grid](https://kyrule.github.io/grid-spaces/inline/)
-
+- Develop [two column grid](https://kyrule.github.io/grid-spaces/two-column/)
 
 ## By:
+
 > [Khairul](mailto:khairulkulma@gmail.com)
