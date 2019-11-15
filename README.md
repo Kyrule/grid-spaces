@@ -1,4 +1,4 @@
-![CSS Grid logo](https://mdbootstrap.com/img/Marketing/publications/articles/css-grid.jpg)
+![CSS Grid logo](https://miro.medium.com/max/600/1*qG3OT-9cER8Nt-P7KR3YPw.jpeg)
 
 # Exploring Grid CSS
 
