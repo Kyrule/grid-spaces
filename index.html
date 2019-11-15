@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grid Container: grid and inline-grid</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/grid-container-basics.css"
+    />
+  </head>
+  <body>
+    <h1 class="display-1">Grid Container: grid and inline-grid</h1>
+    <section class="type-grid">
+      <div class="container__main">
+        <div class="container__code">
+          <code>
+            .container { display: grid; }
+          </code>
+        </div>
+        <div class="container">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="type-grid">
+      <div class="inline-container__main">
+        <div class="inline-container__code">
+          <code>
+            .inline-container { display: inline-grid; }
+          </code>
+        </div>
+        <div class="inline-container">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+        </div>
+        <blockquote class="desc">
+          width of the container is only as wide as the content inside of it.
+        </blockquote>
+      </div>
+    </section>
+  </body>
+</html>
