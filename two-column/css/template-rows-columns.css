@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+}
+
+.two-column-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.two-column-container-inline {
+  display: inline-grid;
+  grid-template-columns: 200px 200px;
+}
+
+.container__code > pre > code {
+  color: #fff;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.container__main {
+  background-color: #455a64;
+  padding: 3%;
+  border-radius: 10%;
+  margin-bottom: 2%;
+}
+
+.desc {
+  color: #ffccbc;
+  font-size: larger;
+  margin-top: 2%;
+  font-weight: 900;
+}
+
+.just-rows-container {
+}
+
+.two-by-two-container {
+}
+
+.four-by-one-container {
+}
+
+.just-columns-container {
+}
+
+.unnecessary-columns-container {
+}
+
+.unnecessary-rows-container {
+}

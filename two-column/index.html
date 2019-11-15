@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grid Template Rows and Columns</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/template-rows-columns.css"
+    />
+  </head>
+  <body>
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+            <code>
+                                  display: grid; 
+                                  grid-template-columns: 200px 200px;        
+            </code>
+        </pre>
+      </div>
+      <div class="container two-column-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        this keeps the width of the container intact and only allocating 200px
+        to each column
+      </blockquote>
+    </div>
+
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+            <code>
+                              display: inline-grid;
+                              grid-template-columns: 200px 200px;                  
+            </code>
+        </pre>
+      </div>
+      <div class="two-column-container-inline">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        this keeps the grid container confined to 400px total because of the
+        inline-grid
+      </blockquote>
+    </div>
+  </body>
+</html>
