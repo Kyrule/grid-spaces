@@ -10,7 +10,7 @@
 
 - Design using [display grid, inline-grid](https://kyrule.github.io/grid-spaces/inline/)
 - Design [two column grid](https://kyrule.github.io/grid-spaces/two-column/)
-- Design and [size the row height](https://kyrule.github.io/grid-spaces/row/)
+- Design and [size the row height](https://kyrule.github.io/grid-spaces/row/index.html)
 
 ## By:
 
