@@ -8,8 +8,9 @@
 
 ## Reflection: What I have learnt
 
-- Develop using [display grid, inline-grid](https://kyrule.github.io/grid-spaces/inline/)
-- Develop [two column grid](https://kyrule.github.io/grid-spaces/two-column/)
+- Design using [display grid, inline-grid](https://kyrule.github.io/grid-spaces/inline/)
+- Design [two column grid](https://kyrule.github.io/grid-spaces/two-column/)
+- Design and [size the row height](https://kyrule.github.io/grid-spaces/row/)
 
 ## By:
 

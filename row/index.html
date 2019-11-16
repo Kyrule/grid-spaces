@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grid Template Rows and Columns</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/template-rows-columns.css"
+    />
+  </head>
+  <body>
+    <h1 class="display-1">Using grid-template-rows: </h1>
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+    <code>
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px;
+          
+    </code>
+</pre>
+      </div>
+      <div class="just-rows-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        Each row is allocated 100px
+      </blockquote>
+    </div>
+
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+    <code>
+        display: grid;
+        grid-template-rows: 100px 100px;
+      </code>
+            </pre>
+      </div>
+      <div class="just-rows-container-only-two">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        first row and second row allocated 100px
+      </blockquote>
+    </div>
+
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+            <code>
+                        display: inline-grid;
+                        grid-template-rows: 100px 100px 100px 100px;
+            </code>
+        </pre>
+      </div>
+      <div class="just-rows-container-inline">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        100px for each row overrides the size of the numbers
+      </blockquote>
+    </div>
+
+    <div class="container__main">
+      <div class="container__code">
+        <pre>
+            <code>
+                        display: inline-grid;
+                        grid-template-rows: 100px 100px;
+            </code>
+            </pre>
+      </div>
+      <div class="just-rows-container-inline-only-two">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <blockquote class="desc">
+        the important thing to note is that, when using inline, the grid will
+        attempt to fill up an entire line relative to the inline style before it
+        before moving on to the next line. as you can see, when grid is applied,
+        the container will occupy the entire width of the page.
+      </blockquote>
+    </div>
+  </body>
+</html>
